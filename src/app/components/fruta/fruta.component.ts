@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-fruta',
+  selector: 'fruta',
   standalone: true,
   imports: [],
   templateUrl: './fruta.component.html',
