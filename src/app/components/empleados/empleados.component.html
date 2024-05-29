@@ -1,8 +1,24 @@
-<h2 style="color: blue">{{ title }}</h2>
-<p>Printing data type values from component:</p>
-<ul>
-  <li>Number: {{ amount }}</li>
-  <li>Bool: {{ active }}</li>
-  <li>Array: {{ roles }}</li>
-  <li>Any: {{ joker }}</li>
-</ul>
+<h2>{{ title }}</h2>
+<h3>Class creation, data model and objects:</h3>
+<div>
+  <strong>Showing class / model values</strong>
+  <ul>
+    <li>{{ empleado.nombre }}</li>
+    <li>{{ empleado.edad }}</li>
+    <li>{{ empleado.cargo }}</li>
+    <li>{{ empleado.contratado }}</li>
+  </ul>
+
+  <strong>Showing class / model values from array</strong>
+  <ul>
+    <li>{{ empleados[0].nombre }}</li>
+    <li>{{ empleados[0].edad }}</li>
+    <li>{{ empleados[0].cargo }}</li>
+    <li>{{ empleados[0].contratado }}</li>
+    <br />
+    <li>{{ empleados[1].nombre }}</li>
+    <li>{{ empleados[1].edad }}</li>
+    <li>{{ empleados[1].cargo }}</li>
+    <li>{{ empleados[1].contratado }}</li>
+  </ul>
+</div>
