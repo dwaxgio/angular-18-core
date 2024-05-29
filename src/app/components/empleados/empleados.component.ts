@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class EmpleadosComponent {
   public title = 'Titulo componente empleado';
+  public amount: number = 60;
+  public active: boolean = true;
+  public roles: Array<string> = ['Engineer', 'Desingner'];
+  public joker: any = 'Any variable';
 }
