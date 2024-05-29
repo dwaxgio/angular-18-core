@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './fruta.component.css',
 })
 export class FrutaComponent {
-  public nombre_componente:string = 'Componente de fruta';
+  public nombre_componente:string = 'Fruta component';
   public listado_frutas:string = 'Naranja, Manzana, Pera';
 }
